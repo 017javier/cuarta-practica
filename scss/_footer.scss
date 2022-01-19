@@ -1,0 +1,94 @@
+// footer--------
+
+.footer{
+    .footer__contacto{
+        padding: 60px 0;
+        .footer__titulo{
+            display: block;
+            color: #43cea2;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2rem;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        .formulario{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            input[type="text"],
+            input[type="email"],
+            textarea{
+                border: 2px solid #43cea2;
+                border-radius: 7px;
+                padding: 15px 10px;
+                font-size: 20px;
+                color: rgb(54, 54, 54);
+                text-align: left;
+            }
+            input[type="text"]:focus,
+            input[type="email"]:focus,
+            textarea:focus{
+                border: 2px solid #6f3e7c;
+            }
+            input[type="text"],
+            input[type="email"] {
+                width: 47%;
+                margin-bottom: 20px;
+            }
+            textarea{
+                width: 100%;
+                height: 100px;
+                min-width: 100%;
+                margin-bottom: 20px;
+                min-height: 100px;
+                max-height: 250px;
+            }
+            .boton{
+                margin: auto;
+                background: #185a9d;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                padding: 15px 40px;
+                cursor: pointer;
+                &:hover{
+                    background: #0b3c6d;
+                }
+            }
+        }
+    }
+    .footer__redes{
+        background: #43cea2;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding: 60px 0;
+        .container{
+            display: flex;
+            justify-content: center;
+            a{
+                color: #fff;
+                text-align: center;
+                width: 100px;
+                display: block;
+                padding: 15px 0;
+                border-radius: 5px;
+                font-size: 1.5rem;
+                background: #43cea2;
+                margin:0 20px;
+            }
+            .footer__twetter:hover{
+                background: #1da1f2;
+            }
+            .footer__facebook:hover{
+                background: #1877f2;
+            }
+            .footer__youtuber:hover{
+                background: #ff0000;
+            }
+            .footer__github:hover{
+                background: #333;
+            }
+        }
+    }
+}

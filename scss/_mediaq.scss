@@ -1,0 +1,50 @@
+// media-------
+
+@media screen and (max-width:768px) { 
+    .header{
+        .header__menu{
+            text-align: center;
+        }
+    }  
+}
+
+@media screen and (max-width:576px) { 
+    .header{
+        .header__textos{
+            .header__titulo{
+                .header__nombre{
+                    margin-bottom: 0;
+                    font-size: 1.8rem;
+                }
+                .header__profesion{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .main{
+        .trabajo{
+            .trabajo__contenedor{
+                .trabajo__card{
+                    width: 46%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main{
+        .trabajo{
+            .trabajo__contenedor{
+                justify-content: center;
+                .trabajo__card{
+                    width: 98%;
+                }
+            }
+        }
+    }
+}

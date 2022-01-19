@@ -1,0 +1,38 @@
+// ------- main
+.main{
+    .container{
+        overflow: visible;
+    }
+}
+.main{
+    .main__acerca{
+        text-align: center;
+        .main__foto{
+            margin-top: -100px;
+            img{
+                vertical-align: top;
+                border-radius: 50%;
+                border: 6px solid rgba(255, 255, 255, 0.2);
+            }
+        }
+        .main__texto{
+            display: inline-block;
+            padding: 40px 0;
+            color: #212529;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 25px;
+            width: 80%;
+            .main__titulo{
+                padding-bottom: 15px;
+                font-size: 2rem;
+            }
+            .main__parrafo{
+                .azul{
+                    color:#185a9d;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

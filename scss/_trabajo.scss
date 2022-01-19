@@ -1,0 +1,50 @@
+// -----trabajos
+
+.trabajo{
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 60px 0;
+    .container{
+        overflow: hidden;
+        .trabajo__titulo{
+            color: #fff;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2rem;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        .trabajo__contenedor{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .trabajo__card{
+                width: 23%;
+                border: 2px solid #fff;
+                margin-bottom: 10px;
+                .card__body{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    .trabajo__img{
+                        width: 100%;
+                        vertical-align: top;
+                    }
+                }
+                .card__texto{
+                    text-align: center;
+                    .card__nombre{
+                        font-weight: 700;
+                        color: #fff;
+                        margin-bottom: 10px;
+                    }
+                    .card__categoria{
+                        font-size: 0.9rem;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

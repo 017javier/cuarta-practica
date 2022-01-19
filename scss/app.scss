@@ -1,0 +1,33 @@
+@import 'header';
+@import 'main';
+@import 'trabajo';
+@import 'footer';
+@import 'mediaq';
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+form , input, textarea, select , button , label{
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color:inherit;
+}
